@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Практика\\source\\repos\\Testproject1\\TestProject1\\TestProject1.csproj": {}
+    "D:\\Practice2021\\SurfingBlog\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Практика\\source\\repos\\Testproject1\\TestProject1\\TestProject1.csproj": {
+    "D:\\Practice2021\\SurfingBlog\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Практика\\source\\repos\\Testproject1\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "D:\\Practice2021\\SurfingBlog\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\Практика\\source\\repos\\Testproject1\\TestProject1\\TestProject1.csproj",
+        "projectPath": "D:\\Practice2021\\SurfingBlog\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\Практика\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Практика\\source\\repos\\Testproject1\\TestProject1\\obj\\",
+        "outputPath": "D:\\Practice2021\\SurfingBlog\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Практика\\AppData\\Roaming\\NuGet\\NuGet.Config",

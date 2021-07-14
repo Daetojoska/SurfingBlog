@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "smgTAru3qEVWsYFwy4I+Eduh+5CcBco6IjsyYM7Yh24zA0DW2kRCpDID6G57gSjMNw2q+cMYCom6yx799rzV5Q==",
+  "dgSpecHash": "xNxtbd9Hr1fCcqn0bPufJynDAtgZnA8GVnTDUBVzAPCIjGsHbtgRAC9KO/H16KniFArq25CHLqBtkYEEsdqCmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Практика\\source\\repos\\Testproject1\\SURFblog\\SurfClub.csproj",
+  "projectFilePath": "D:\\Practice2021\\SurfingBlog\\SURFblog\\SurfClub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Практика\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Практика\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
