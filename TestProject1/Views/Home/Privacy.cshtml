@@ -1,0 +1,35 @@
+﻿@using TestProject1.Models
+
+
+@{
+    ViewData["Title"] = "Личная страница";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Сюда лучше никому не заходить</p>
+
+<a asp-controller="Home" asp-action="Index">Главная</a>
+
+@foreach (Student student in @ViewBag.Group)
+{
+    <div class="panel panel-default">
+        <div class="panel-heading ">
+            Студент
+        </div>
+        <div class="panel-body">
+            @student.Name
+            <br>
+            @student.Age
+            <br>
+            
+            Пол:
+            @if (student.Gender == 1) {
+
+                <p>женский</p>}
+            
+            else  {
+                <p>мужской</p> }
+
+        </div>
+    </div>
+}
