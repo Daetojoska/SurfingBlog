@@ -22,13 +22,7 @@
                     <textarea asp-for="Text" rows="10" cols="100"></textarea>
                     <span asp-validation-for="Text"></span>
                 </div>
-
-                <div class="form-group">
-                    <label asp-for="Text">Введите текст</label>
-                    <textarea asp-for="Text" rows="10" cols="100"></textarea>
-                    <span asp-validation-for="Text"></span>
-                </div>
-
+                              
                 <div class="form-group">
                     <input type="file"
                            accept=".jpg,.jpeg,.png"
@@ -44,7 +38,7 @@
 }
 
 
-@foreach (var post in ViewBag.Post)
+@foreach (var post in ViewBag.Posts)
 {
 
 

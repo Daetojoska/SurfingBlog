@@ -49,13 +49,16 @@
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 @{
-                                    var userPhoto = ImageHelper.GetUrl(new Guid(photo));
-                                    if (userPhoto != null)
+                                    if (photo != "")
                                     {
+                                        var userPhoto = ImageHelper.GetUrl(new Guid(photo));
+                                        if (userPhoto != null)
+                                        {
 
                                         <img class="userpic" src="@Url.Content(userPhoto)" width="40" />
+                                            }
+                                        }
                                     }
-                                }
                             </li>
                             <li class="nav-item">
                                 @nickName

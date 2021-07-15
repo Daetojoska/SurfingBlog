@@ -19,12 +19,13 @@ namespace SurfClub.Controllers
         {
             this.dBContext = dBContext;
         }
-
         public IActionResult Index()
         {
-            var posts = dBContext.Post.Include(c=>c.Author).
-                OrderBy(c => c.PublishDate).ToArray();
-            ViewBag.Post = posts;
+            var posts = dBContext.Post.
+                Include(c => c.Author).
+                OrderBy(c => c.PublishDate).
+                ToArray();
+            ViewBag.Posts = posts;
             return View();
         }
 

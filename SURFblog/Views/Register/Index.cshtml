@@ -1,0 +1,96 @@
+﻿@model SurfClub.Models.DbModels.User
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form asp-controller="Register" asp-action="AddUser" asp-antiforgery="true">
+    <div class="card">
+        <div class="card-header">Регистрация нового пользователя</div>
+        <div class="card-body">
+            <div class="form-group">
+                <label asp-for="Nickname">Псевдоним*</label>
+                </br>
+                <input type="text" asp-for="Nickname" />
+                <span asp-validation-for="Nickname"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email">Почта*</label>
+                </br>
+                <input type="email" asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Пароль*</label>
+                </br>
+                <input type="password" asp-for="Password" />
+                <span asp-validation-for="Password"></span>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">Подтвердите пароль*</label>
+                </br>
+                <input type="password" asp-for="ConfirmPassword" />
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Surname">Фамилия</label>
+                </br>
+                <input type="text" asp-for="Surname" />
+                <span asp-validation-for="Surname"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Name">Имя</label>
+                </br>
+                <input type="text" asp-for="Name" />
+                <span asp-validation-for="Name"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="file"
+                       accept=".jpg,.jpeg,.png"
+                       name="imageData" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Contact">Контактная информация</label>
+                </br>
+                <input type="text" asp-for="Contact" />
+                <span asp-validation-for="Contact"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AboutMe">О себе</label>
+                </br>
+                <input type="text" asp-for="AboutMe" />
+                <span asp-validation-for="AboutMe"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Progress">Достижения</label>
+                </br>
+                <input type="text" asp-for="Progress" />
+                <span asp-validation-for="Progress"></span>
+            </div>
+           
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                * - поля обязательные для заполнения  <input type="submit" value="Зарегистрироваться" />
+            </div>
+
+            <div>
+                Для поля с картинкой
+            </div>
+
+        </div>
+    </div>
+</form>
+
+Уже есть аккаунт?  <a class="btn btn-info" asp-controller="Login" asp-action="Index">Войти</a>

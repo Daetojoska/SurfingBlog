@@ -25,8 +25,9 @@ namespace SurfClub.Models
                 new User
                 {
                     Id = 1,
-                    Nickname = "TestUser",
-                    Password = "TestPassword",
+                    Nickname = "Test",
+                    Email = "test@mail.ru",
+                    Password = "123456",
                     Photo = new Guid("498d7e21-cb9b-43a6-9e5b-37fcb41e273f")
                 });
 
