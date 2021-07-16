@@ -87,6 +87,11 @@ input, label {
     margin:5px auto;
 }
 
+register-card {
+    width: 500px;
+    margin: 5 px auto;
+}
+
 .center {
     width: 50%;
     margin: 5px auto;
