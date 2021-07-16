@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white mb-3">
             <div class="container logobg">
                 <a class="navbar-brand" asp-area="" asp-controller="Feed" asp-action="Index">
                     <img src="~/img/logo.jpg" />
@@ -47,7 +47,7 @@
                     {
 
                         <ul class="navbar-nav">
-                            <li class="nav-item">
+                            <li class="nav-item vcenter">
                                 @{
                                     if (photo != "")
                                     {
@@ -58,9 +58,10 @@
                                         <img class="userpic" src="@Url.Content(userPhoto)" width="40" />
                                             }
                                         }
+                                    else { <img class="userpic" src="~/img/defaultProfile.jpg" width="40" /> }
                                     }
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item vcenter">
                                 @nickName
                             </li>
                             <li class="nav-item">

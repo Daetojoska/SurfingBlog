@@ -77,3 +77,33 @@ body {
 .logobg {
     background-color: #c8d3d9;
 }
+
+input, label {
+    display:block;
+}
+
+.login-card {
+    width:300px;
+    margin:5px auto;
+}
+
+.center {
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.card {
+    margin-bottom: 10px !important;
+}

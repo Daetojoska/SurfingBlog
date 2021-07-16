@@ -125,7 +125,6 @@ D:\Practice2021\SurfingBlog\SURFblog\bin\Debug\netcoreapp3.1\runtimes\win-x86\na
 D:\Practice2021\SurfingBlog\SURFblog\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Practice2021\SurfingBlog\SURFblog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Practice2021\SurfingBlog\SURFblog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.csproj.AssemblyReference.cache
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.AssemblyInfoInputs.cache
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.AssemblyInfo.cs
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.csproj.CoreCompileInputs.cache
@@ -140,6 +139,7 @@ D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.TagHelpers
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.RazorCoreGenerate.cache
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Feed\Index.cshtml.g.cs
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Register\Index.cshtml.g.cs
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -151,4 +151,3 @@ D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.csproj.Cop
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.dll
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.pdb
 D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\SurfClub.genruntimeconfig.cache
-D:\Practice2021\SurfingBlog\SURFblog\obj\Debug\netcoreapp3.1\Razor\Views\Register\Index.cshtml.g.cs

@@ -32,7 +32,7 @@
                 <div class="form-group">
                     <input type="submit" value="Добавить" />
                 </div>
-
+           </div> 
             </div>
 </form>
 }
@@ -59,7 +59,7 @@
             @post.PublishDate
         </div>
         <div class="card-body">
-            @post.Text
+            <p>@post.Text</p> 
 
             @{
                 var photoUrl = ImageHelper.GetUrl(post.Photo);
