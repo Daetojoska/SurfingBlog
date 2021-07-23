@@ -13,12 +13,18 @@
             <div class="form-group">
                 <label asp-for="Nickname">Псевдоним*</label>
                 <input type="text" asp-for="Nickname" />
+                data-placement="bottom"
+                data-toggle="popover"
+                data-content="Введите псевдоним"
                 <span asp-validation-for="Nickname"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="Email">Почта*</label>
                 <input type="email" asp-for="Email" />
+                data-placement="bottom"
+                data-toggle="popover"
+                data-content="Введите псевдоним"
                 <span asp-validation-for="Email"></span>
             </div>
 
@@ -48,9 +54,11 @@
             </div>
 
             <div class="form-group">
+                <label>Фото</label>
                 <input type="file"
                        accept=".jpg,.jpeg,.png"
                        name="imageData" />
+                <span asp-validation-for="Photo"></span>
             </div>
 
             <div class="form-group">

@@ -15,6 +15,8 @@ namespace SurfClub.Models.DbModels
         [MaxLength(20, ErrorMessage = "Максимальная длина двадцать символов"), MinLength(3, ErrorMessage = "Минимальная длина три символа")]
         public String Nickname { get; set; }
 
+        [RegularExpression("^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$")]
+        [EmailAddress(ErrorMessage ="Не верно указана почта")]
         [Required(ErrorMessage = "Почта обязательна")]
         [MaxLength(31, ErrorMessage = "Максимальная длина тридцать один символ"), MinLength(7, ErrorMessage = "Минимальная длина семь символов")]
         public String Email { get; set; }

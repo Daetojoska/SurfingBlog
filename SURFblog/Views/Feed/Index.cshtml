@@ -50,13 +50,13 @@
                 if (userPhoto != null)
                 {
 
-                    <img class="userpic" src="@Url.Content(userPhoto)" width="40"/>
+                    <img class="userpic" src="@Url.Content(userPhoto)" width="40" />
                 }
             }
 
             @post.Author.Nickname
 
-            @post.PublishDate
+            @post.PublishDate.ToString("dd/MM/yyyy") в @post.PublishDate.ToString("HH:mm")
         </div>
         <div class="card-body">
             <p>@post.Text</p> 

@@ -55,18 +55,19 @@
                                         if (userPhoto != null)
                                         {
 
-                                        <img class="userpic" src="@Url.Content(userPhoto)" width="40" />
-                                            }
+                                            <img class="userpic" src="@Url.Content(userPhoto)" width="40" />
                                         }
-                                    else { <img class="userpic" src="~/img/defaultProfile.jpg" width="40" /> }
                                     }
+                                    else
+                                    { <img class="userpic" src="~/img/defaultProfile.jpg" width="40" /> }
+                                }
                             </li>
                             <li class="nav-item vcenter">
                                 @nickName
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Logout">
-                                   <img src="~/img/image_2021_07_14T08_18_33_773Z.png" width="35" />
+                                    <img src="~/img/image_2021_07_14T08_18_33_773Z.png" width="35" />
                                 </a>
                             </li>
                         </ul>
@@ -85,6 +86,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

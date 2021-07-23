@@ -37,6 +37,11 @@ namespace SurfClub.Controllers
                 var posts1 = dBContext.Post.Include(c => c.Author).
               OrderBy(c => c.PublishDate).ToArray();
                 ViewBag.Post = posts1;
+                var post = dBContext.Post.
+                Include(c => c.Author).
+                OrderBy(c => c.PublishDate).
+                ToArray();
+                ViewBag.Posts = post;
                 return View("Index",model);
             }
             if (imageData != null)

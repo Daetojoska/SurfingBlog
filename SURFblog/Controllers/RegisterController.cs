@@ -7,6 +7,7 @@ using SurfClub.Models;
 using SurfClub.Models.DbModels;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -52,7 +53,17 @@ namespace SurfClub.Controllers
                     ModelState.AddModelError(string.Empty, "Пароли не совпадают");
                     return View("Index", model);
                 }
-                if(imageData!= null) model.Photo = ImageHelper.UploadImage(imageData);
+                if (imageData != null)
+                {
+                    var extension = Path.GetExtension(imageData.FileName);
+                    if (extension != ".jpg" && extension != ".jpeg" && extension != ".png")
+                    {
+                        ModelState.AddModelError("Photo",
+                            "Можно загрузить файлы только с расширениями .jpg, .jpeg, .png");
+                        return View("Index", model);
+                    }
+                } 
+                model.Photo = ImageHelper.UploadImage(imageData);
 
                 dbContext.User.Add(model);
                 dbContext.SaveChanges();
